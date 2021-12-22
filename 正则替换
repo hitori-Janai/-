@@ -1,0 +1,4 @@
+        ^\s*?(\w+)\s+(\w+)\s+=\s+\(\w+\).*?(\w+\(\))\S
+        \t\t$1 $2 = null;\n\t\tif($2 instanceof $1)
+
+        C c = (C)new A();
